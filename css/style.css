@@ -1,0 +1,88 @@
+body {
+    line-height: normal;
+}
+
+.container {
+    max-width: 1150px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+:root {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Italiana', sans-serif;
+    --primary-color: #FFFFFF;
+    --secondary-color: #202023;
+    --button-color: #B47B48; 
+}
+
+.header {
+    margin-left: 150px;
+    margin-top: 55px;
+    position: absolute;
+}
+
+.header-link {
+    color: #FFFFFF;
+    transition: all 0.3s ease 0s;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.header-link:hover {
+    color: #B47B48;
+}
+
+.header-list {
+    display: flex;
+	justify-content: left;
+    gap: 30px;
+}
+
+.page-banner-container {
+}
+
+.page-banner {
+    background-image: url(../img/header-picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 155px;
+    padding-bottom: 35px;
+}
+
+.page-banner-title {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 70px;
+    font-weight: 200;
+    margin-top: 71px;
+}
+
+.page-banner-text {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    margin-top: 22px;
+    font-weight: 300;
+}
+
+.page-banner-button {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #B47B48;
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 33px;
+    padding: 11px 34px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.page-banner-button:hover {
+    background-color: transparent;
+    color: #B47B48;
+}
+
