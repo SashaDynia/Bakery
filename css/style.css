@@ -453,6 +453,11 @@ body {
     flex-wrap: wrap ;
 }
 
+.footer-row {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer-row-name {
     font-size: 40px;
     font-family: 'Inter', sans-serif;
@@ -482,6 +487,19 @@ body {
 .footer-row-option {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    transition: all 0.3s ease 0s;
+}
+
+.footer-row-option:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.footer-row-option:hover {
+    transform: scale(1.2);
+    color: #B47B48;
 }
 
 .footer-tag {
@@ -490,4 +508,5 @@ body {
     font-size: 20px;
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
